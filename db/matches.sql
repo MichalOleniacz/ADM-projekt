@@ -1,0 +1,1 @@
+CREATE TABLE `pzpn`.`matches` ( `id` INT NOT NULL AUTO_INCREMENT , `date` DATE NOT NULL , `team_a` INT NOT NULL , `score_team_a` INT NOT NULL , `team_b` INT NOT NULL , `score_team_b` INT NOT NULL , `winner` INT NOT NULL , `referee` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
